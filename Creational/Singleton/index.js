@@ -1,8 +1,7 @@
-var Logger = require('./Logger');
+// Importing Singleton
+var logger = require('./Logger');
 var Shopper = require('./Shopper');
 var Store = require('./Store');
-
-var logger = new Logger().getInstance();
 
 logger.log('starting app...');
 

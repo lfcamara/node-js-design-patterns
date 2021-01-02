@@ -15,7 +15,9 @@ class Logger {
     }
 }
 
-class Singleton {
+// Singleton Object Oriented Way
+
+/* class Singleton {
     constructor() {
         if (!Singleton.instance) {
             Singleton.instance = new Logger();
@@ -25,6 +27,7 @@ class Singleton {
     getInstance() {
         return Singleton.instance;
     }
-}
+} */
 
-module.exports = Singleton;
+// Node.js Singleton way
+module.exports = new Logger();

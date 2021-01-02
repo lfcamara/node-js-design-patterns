@@ -1,6 +1,5 @@
-var Logger = require('./Logger');
-
-var logger = new Logger().getInstance();
+// Importing Singleton
+var logger = require('./Logger');
 
 class Store {
 
