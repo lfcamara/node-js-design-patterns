@@ -13,7 +13,7 @@ var skiShop = new Store('Steep and Deep', inventory);
   a Store só está buscando em floor. O Chain of Responsibility será usado para melhorar o
   método de busca da Store */
 
-var searchItem = 'ski poles';
+var searchItem = 'powder skis';
 var results = skiShop.find(searchItem);
 
 console.log( results );
